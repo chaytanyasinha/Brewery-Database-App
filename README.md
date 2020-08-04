@@ -1,4 +1,4 @@
-[![API](https://img.shields.io/badge/API-21%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=21)  <a href="https://paypal.me/kpatel2106?locale.x=en_GB"> <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" /></a>
+[![API](https://img.shields.io/badge/API-21%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=21)  
 
 # Brew - Brewery Database App
 
