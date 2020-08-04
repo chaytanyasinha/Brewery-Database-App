@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detailContactCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/spacing_small"
+    android:layout_marginTop="@dimen/spacing_micro"
+    android:layout_marginEnd="@dimen/spacing_small"
+    android:layout_marginBottom="@dimen/spacing_micro"
+    app:contentPaddingBottom="@dimen/spacing_micro"
+    app:contentPaddingTop="@dimen/spacing_micro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/DetailHeaderStyle"
+            android:text="@string/detail_contact" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/detailPhoneTextView"
+            style="@style/DetailValueTextStyle"
+            android:autoLink="phone"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="@dimen/spacing_small"
+            tools:text="@tools:sample/us_phones" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/detailWebTextView"
+            style="@style/DetailValueTextStyle"
+            android:autoLink="web"
+            android:background="?selectableItemBackground"
+            android:drawableStart="@drawable/ic_website"
+            android:drawablePadding="@dimen/spacing_small"
+            tools:text="@tools:sample/us_phones" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

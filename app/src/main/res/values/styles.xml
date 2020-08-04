@@ -1,0 +1,71 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!--Brand theme-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Texts-->
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+
+        <!--Status bar and navigation-->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!--Windows-->
+        <item name="android:windowBackground">@color/window_background_color</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <!--Hide actionbar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="materialCardViewStyle">@style/AppCardTheme</item>
+    </style>
+
+    <style name="AppCardTheme" parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@android:color/white</item>
+        <item name="cardCornerRadius">@dimen/spacing_nano</item>
+        <item name="useCompatPadding">true</item>
+        <item name="rippleColor">@android:color/darker_gray</item>
+        <item name="android:stateListAnimator">@animator/card_press_animator</item>
+        <item name="cardElevation">@dimen/spacing_nano</item>
+    </style>
+
+    <style name="DetailHeaderStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/spacing_small</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingEnd">@dimen/spacing_small</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="DetailValueTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/spacing_small</item>
+        <item name="android:layout_marginTop">@dimen/spacing_micro</item>
+        <item name="android:paddingEnd">@dimen/spacing_small</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+    </style>
+
+    <style name="ErrorTextViewStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/error_loading_list_initially</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+    </style>
+
+    <style name="LoadingProgressBarStyle">
+        <item name="android:layout_width">@dimen/spacing_xlarge</item>
+        <item name="android:layout_height">@dimen/spacing_xlarge</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+</resources>

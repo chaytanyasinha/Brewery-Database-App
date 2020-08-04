@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Brew</string>
+    <string name="error_loading_next_page">Cannot load next page. Try again!</string>
+    <string name="detail_address">Address</string>
+    <string name="detail_contact">Contact</string>
+    <string name="_close">Close</string>
+    <string name="content_description_brewery_image">Brewery Image</string>
+    <string name="error_not_supported_action">Device does not support this action.</string>
+    <string name="error_loading_list_initially">Ohh snap! Error loading list.Try again.</string>
+    <string name="transition_name_brewery_image" translatable="false">brewery_image_%d</string>
+    <string name="transition_name_brewery_title" translatable="false">brewery_title_%d</string>
+    <string name="error_refreshing_list">Error occured while refreshing the list.</string>
+</resources>

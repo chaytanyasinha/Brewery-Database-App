@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="brewery_detail_info_width">400dp</dimen>
+    <dimen name="brewery_list_width">400dp</dimen>
+</resources>
