@@ -13,7 +13,7 @@
 ### How to setup the project?
 - Clone the repo to your local machine.
 ```groovy
-https://github.com/kevalpatel2106/brew.git && cd Stand-Up
+https://github.com/chaytanyasinha/Brewery-Database-App.git && cd Stand-Up
 ```
 
 ### How to run all the unit tests?
