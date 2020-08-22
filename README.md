@@ -12,7 +12,7 @@ This android application lists the breweries list. When tap on any brewery it wi
   - All the brewery list pages loaded from network are cached in the database which acts as SSOT. 
   - Once all the pages are displayed from the database, [RemoteMediator](https://developer.android.com/reference/kotlin/androidx/paging/RemoteMediator) will load the next page from network and cache it. 
   - User can invalidate cache anytime by just doing simple swipe refresh.  
-- Uses **dagger2** for dependency injection. 
+- Uses **dagger2** for dependency injection:
   - This is to provide clear separation between different architecture layers. 
   - Helps to write testable code by swapping dependency module in android tests.
 - Single activity application.
