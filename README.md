@@ -26,7 +26,7 @@ This android application lists the breweries list. When tap on any brewery it wi
 | Phone - Portrait | ![](.github/images/listing.png) | ![](.github/images/detail.png) | 
 | Tablet - Portrait | ![](.github/images/listing-tab.png) | ![](.github/images/detail-tab.png) | 
 
-### API
+### API:
 
 - This app user APIs from the [OpenBreweryDb](https://www.openbrewerydb.org/) to list the breweries in a paginated list.
 - **API Doc:** [List Breweries](https://www.openbrewerydb.org/documentation/01-listbreweries)
