@@ -76,7 +76,7 @@ googleApiKey=<your key here>
 Every small or large contribution to this project is appreciated. Make sure you read the [contribution guide](/.github/CONTRIBUTING.md) before generating the pull request.
 
 ## Questions?🤔
-Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@chaytanyasinha-blue.svg?style=flat)](https://twitter.com/chaytanyasinha?s=08)
+Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@PACTCHARITY-blue.svg?style=flat)](https://twitter.com/chaytanyasinha?s=08)
 
 <div align="center">
 <img src="https://cloud.githubusercontent.com/assets/370176/26526332/03bb8ac2-432c-11e7-89aa-da3cd1c0e9cb.png">
